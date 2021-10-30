@@ -1,4 +1,0 @@
-[0m2021.10.30 08:50:57 INFO  Started: Metals version 0.10.8 in workspace '/mnt/data/Projects/TS/SvelteTest' for client Code - OSS 1.61.0.[0m
-[0m2021.10.30 08:50:58 INFO  time: initialize in 1.96s[0m
-[0m2021.10.30 08:51:05 WARN  Build server is not auto-connectable.[0m
-[0m2021.10.30 08:51:05 WARN  no build tool detected in workspace '/mnt/data/Projects/TS/SvelteTest'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
