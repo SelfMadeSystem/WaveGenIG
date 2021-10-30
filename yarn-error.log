@@ -1,0 +1,56 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add --dev svelte-add @svelte-add
+
+PATH: 
+  /home/sms/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/var/lib/flatpak/exports/bin:/opt/flutter/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/sms/mycroft-core/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.11.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@svelte-add: Request "https://registry.yarnpkg.com/@svelte-add" returned a 405
+      at Request.params.callback [as _callback] (/usr/lib/node_modules/yarn/lib/cli.js:67038:18)
+      at Request.self.callback (/usr/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "svelte-test",
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "serve": "vite preview",
+      "check": "svelte-check --tsconfig ./tsconfig.json"
+    },
+    "devDependencies": {
+      "@sveltejs/vite-plugin-svelte": "^1.0.0-next.11",
+      "@tsconfig/svelte": "^2.0.1",
+      "svelte": "^3.37.0",
+      "svelte-check": "^2.1.0",
+      "svelte-preprocess": "^4.7.2",
+      "tslib": "^2.2.0",
+      "typescript": "^4.3.2",
+      "vite": "^2.6.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
